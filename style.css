@@ -1,0 +1,70 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  background: #FFFFFF;
+  color: #555;
+}
+
+header {
+  background: #A9CCE3;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background: #A8D5BA;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 8px 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  background: #A8D5BA;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #8fc9a6;
+}
+
+footer {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
